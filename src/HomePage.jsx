@@ -8,6 +8,7 @@ function HomePage() {
                 These are basic Projects
             </h1>   
             <Link to="/birthday-reminder">Birthday Riminder</Link>
+            <Link to="/tour">Tour App</Link>
             
         </div>
     );

@@ -1,8 +1,9 @@
 // Local Imports
 import './App.css';
-// library imports
+import Tour from './screens/Tour/Tour';
 import HomePage from './HomePage';
 import BirthdayReminder from './screens/BirthdayReminder/BirthdayReminder';
+// library imports
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
                     <Route
                         path='/birthday-reminder'
                         element={< BirthdayReminder />}
+                    />
+                    <Route
+                        path='/tour'
+                        element={< Tour />}
                     />
                 </Routes>
             </BrowserRouter>
