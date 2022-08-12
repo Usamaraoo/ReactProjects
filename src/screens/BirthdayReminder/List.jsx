@@ -12,7 +12,7 @@ export default function List({ friends }) {
                         <div className='flex'>
                             <img
                                 src={friend.image}
-                                className='rounded-full  w-16 '
+                                className='rounded-full  w-16 h-16 object-cover '
                                 alt={friend.name}
                             />
                             <div className='text-start pl-4'>
