@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import BackButton from '../../BackButton';
 import user1 from '../../imgs/users/user1.jpg';
 import testimonials from './reviewUser';
 
@@ -29,22 +30,7 @@ export default function Reviews() {
     };
     return (
         <div className=' bg-pink-100 min-h-screen'>
-            <div className='absolute left-36 top-20 '>
-                <Link to='/'>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        className='h-7 w-7'
-                        viewBox='0 0 20 20'
-                        fill='gray'
-                    >
-                        <path
-                            fillRule='evenodd'
-                            d='M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z'
-                            clipRule='evenodd'
-                        />
-                    </svg>
-                </Link>
-            </div>
+            <BackButton />
             <h1 className='text-3xl  font-bold pt-24'>Our Reviews</h1>
             <div className=' mt-20 flex flex-col    items-center'>
                 <div className='h-1/4  bg-white w-96 border border-red p-6 bg-gray shadow-2xl rounded-md '>

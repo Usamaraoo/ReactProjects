@@ -6,6 +6,7 @@ import BirthdayReminder from './screens/BirthdayReminder/BirthdayReminder';
 // library imports
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Reviews from './screens/Reviews/Reviews';
+import Accordion from './screens/accordion/Accordion';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     />
                     <Route path='/tour' element={<Tour />} />
                     <Route path='/reviews' element={<Reviews />} />
+                    <Route path='/accordion' element={<Accordion />} />
                 </Routes>
             </BrowserRouter>
         </div>
