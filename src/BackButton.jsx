@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 export default function BackButton() {
     return (
         <div className='absolute left-36 top-20'>
