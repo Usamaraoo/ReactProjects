@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-export default function BackButton() {
+export default function BackButton({ color }) {
+    const colorToUpdate = color || 'black';
     return (
         <div className='absolute left-36 top-20'>
             <Link to='/'>
@@ -8,7 +9,7 @@ export default function BackButton() {
                     xmlns='http://www.w3.org/2000/svg'
                     className='h-7 w-7'
                     viewBox='0 0 20 20'
-                    fill='gray'
+                    fill={colorToUpdate}
                 >
                     <path
                         fillRule='evenodd'
