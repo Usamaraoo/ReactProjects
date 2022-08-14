@@ -19,6 +19,9 @@ function HomePage() {
             <div className='my-10'>
                 <Link to='/accordion'>Accordion App</Link>
             </div>
+            <div>
+                <Link to='/menu'>Food Menu</Link>
+            </div>
         </div>
     );
 }

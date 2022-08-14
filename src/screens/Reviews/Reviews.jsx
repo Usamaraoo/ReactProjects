@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import BackButton from '../../BackButton';
-import user1 from '../../imgs/users/user1.jpg';
 import testimonials from './reviewUser';
+import Header from '../../components/Header';
 
 export default function Reviews() {
     const [count, setCount] = useState(0);
@@ -30,8 +28,13 @@ export default function Reviews() {
     };
     return (
         <div className=' bg-pink-100 min-h-screen'>
-            <BackButton />
-            <h1 className='text-3xl  font-bold pt-24'>Our Reviews</h1>
+            <Header
+                title='Accordion'
+                textClr='black'
+                lineClr='black'
+                btnClr='black'
+            />
+
             <div className=' mt-20 flex flex-col    items-center'>
                 <div className='h-1/4  bg-white w-96 border border-red p-6 bg-gray shadow-2xl rounded-md '>
                     <img

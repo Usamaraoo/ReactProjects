@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import tourdata from './data';
 import TourList from './TourList';
-import { Link } from 'react-router-dom';
-import BackButton from '../../BackButton';
+import Header from '../../components/Header';
+
 function Tour() {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
@@ -20,7 +20,8 @@ function Tour() {
 
     return (
         <div className='text-center'>
-            <BackButton />
+            <Header title='Tours App' textClr='black' lineClr='black' btnClr='black' />
+           
             {loading ? (
                 <p className='text-3xl font-bold my-10'>Loading...</p>
             ) : (
