@@ -9,11 +9,11 @@ import menuImg from './imgs/apps/Menu.png';
 function HomePage() {
     return (
         <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200  h-screen'>
-            <h1 className='pt-20 text-4xl font-bold'>
+            <h1 className='pt-20 text-4xl font-bold text-white'>
                 React Projects
                 <sup className='text-sm font-medium  italic ml-2'>
-                    <span className='text-blue-400'>React </span>+
-                    <span className='text-red-400'>Tailwind</span>
+                    <span className='text-blue-600'>React </span>+
+                    <span className='text-red-600'>Tailwind</span>
                 </sup>
             </h1>
 
@@ -68,6 +68,16 @@ function HomePage() {
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
                         <p className='text-lg py-6 font-medium'>Menu</p>
+                    </div>
+                </Link>
+                <Link to='/tabs'>
+                    <div className='shadow-xl bg-white rounded-t-lg'>
+                        <img
+                            src='{}'
+                            alt='Menu'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>Tabs</p>
                     </div>
                 </Link>
             </div>

@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Reviews from './screens/Reviews/Reviews';
 import Accordion from './screens/accordion/Accordion';
 import Menu from './screens/Menu/Menu';
+import Tab from './screens/tabs/Tab';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path='/reviews' element={<Reviews />} />
                     <Route path='/accordion' element={<Accordion />} />
                     <Route path='/menu' element={<Menu />} />
+                    <Route path='/tabs' element={<Tab />} />
                 </Routes>
             </BrowserRouter>
         </div>

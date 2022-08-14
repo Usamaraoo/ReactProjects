@@ -1,5 +1,4 @@
 import React from 'react';
-import BackButton from '../../components/BackButton';
 import Header from '../../components/Header';
 import MenuItem from './MenuItem';
 import menu from './foodData';
