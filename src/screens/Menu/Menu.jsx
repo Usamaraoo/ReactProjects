@@ -40,7 +40,7 @@ function Menu() {
                     );
                 })}
             </div>
-            <div className='grid grid-cols-3 place-items-center gap-10 max-w-6xl mx-auto mt-10 items-stretch'>
+            <div className='grid grid-cols-3 place-items-center gap-10 rounded-t-lg max-w-6xl mx-auto mt-10 items-stretch'>
                 {foodMenu.map((item) => {
                     return <MenuItem {...item} />;
                 })}
