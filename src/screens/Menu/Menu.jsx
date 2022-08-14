@@ -33,7 +33,7 @@ function Menu() {
                         <p
                             key={i}
                             onClick={() => filterMenu(item.category)}
-                            className='cursor-pointer text-gray-500 border-2 border-yellow-200 rounded-md px-4 py-2'
+                            className='cursor-pointer text-gray-500 border-2 font-medium border-yellow-200 rounded-md px-4 py-2'
                         >
                             {item.category}
                         </p>
