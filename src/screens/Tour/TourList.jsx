@@ -16,7 +16,7 @@ function TourList({ tours, notInteresed }) {
                     >
                         <img
                             src={image}
-                            className='min-w-full rounded-xl'
+                            className='min-w-full rounded-xl max-h-80 object-cover'
                             alt={name}
                         />
                         <div className='flex  justify-between px-6 py-4'>
