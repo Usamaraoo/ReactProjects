@@ -5,6 +5,7 @@ import tourImg from './imgs/apps/Tour.png';
 import reviewImg from './imgs/apps/Reviews.png';
 import accordionImg from './imgs/apps/accordion.png';
 import menuImg from './imgs/apps/Menu.png';
+import tabsImg from './imgs/apps/tabs.png';
 
 function HomePage() {
     return (
@@ -73,7 +74,7 @@ function HomePage() {
                 <Link to='/tabs'>
                     <div className='shadow-xl bg-white rounded-t-lg'>
                         <img
-                            src='{}'
+                            src={tabsImg}
                             alt='Menu'
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />

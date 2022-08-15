@@ -9,7 +9,7 @@ function Header({title ,btnClr, textClr, lineClr }) {
         <div>
             <BackButton color={btnClr} />
             <h1 className={`pt-24 text-3xl font-bold text-${textColor}-500 text-${textColor}`}>
-               {title}
+               {title} 
             </h1>
             <div
                 className={` w-24 h-0.5 mx-auto  bg-${lineColor} bg-${lineColor}-500` }
