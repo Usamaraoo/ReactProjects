@@ -8,7 +8,7 @@ function SingleAccordion({ title, info }) {
                 onClick={() => setShow(!show)}
                 className='flex justify-between items-center cursor-pointer'
             >
-                <h1 className='font-medium text-base'>{title}</h1>
+                <h1 className='font-medium text-start text-base'>{title}</h1>
                 <div className='text-pink bg-gray-200 p-1 rounded-full '>
                     {/* Plus minus icon */}
                     {show ? (
