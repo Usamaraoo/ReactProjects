@@ -12,7 +12,7 @@ function TourList({ tours, notInteresed }) {
                 return (
                     <div
                         key={id}
-                        className='mx-auto mt-5  bg-gray-100 max-w-xl rounded-xl shadow-md'
+                        className='mx-auto mt-5  bg-gray-100 w-4/5 lg:max-w-xl md:max-w-2xl rounded-xl shadow-md'
                     >
                         <img
                             src={image}
@@ -20,7 +20,7 @@ function TourList({ tours, notInteresed }) {
                             alt={name}
                         />
                         <div className='flex  justify-between px-6 py-4'>
-                            <p className='text-x font-bold'>{name}</p>
+                            <p className='text-x text-left  font-bold'>{name}</p>
                             <p className='bg-blue-200 py-1 px-3 text-gray-600 rounded-sm text-sm font-medium'>
                                 {price}$
                             </p>
