@@ -9,7 +9,7 @@ import tabsImg from './imgs/apps/tabs.png';
 
 function HomePage() {
     return (
-        <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200  h-screen'>
+        <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200  min-h-screen py-4'>
             <h1 className='pt-20 text-4xl font-bold text-white'>
                 React Projects
                 <sup className='text-sm font-medium  italic ml-2'>
@@ -81,6 +81,16 @@ function HomePage() {
                         <p className='text-lg py-6 font-medium'>Tabs</p>
                     </div>
                 </Link>
+                {/* <Link to='/slider'>
+                    <div className='shadow-xl bg-white rounded-t-lg'>
+                        <img
+                            src={tabsImg}
+                            alt='Menu'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>Slider</p>
+                    </div>
+                </Link> */}
             </div>
         </div>
     );

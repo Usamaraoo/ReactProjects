@@ -9,6 +9,7 @@ import Reviews from './screens/Reviews/Reviews';
 import Accordion from './screens/accordion/Accordion';
 import Menu from './screens/Menu/Menu';
 import Tab from './screens/tabs/Tab';
+import Slider from './screens/slider/Slider';
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                     <Route path='/accordion' element={<Accordion />} />
                     <Route path='/menu' element={<Menu />} />
                     <Route path='/tabs' element={<Tab />} />
+                    <Route path='/slider' element={<Slider />} />
                 </Routes>
             </BrowserRouter>
         </div>
