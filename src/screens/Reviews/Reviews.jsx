@@ -35,8 +35,8 @@ export default function Reviews() {
                 btnClr='black'
             />
 
-            <div className=' mt-20 flex flex-col    items-center'>
-                <div className='h-1/4  bg-white w-96 border border-red p-6 bg-gray shadow-2xl rounded-md '>
+            <div className=''>
+                <div className='mx-auto mt-20 h-1/4 bg-white  md:w-2/5 xl:w-1/5 w-4/5  border border-red p-6 bg-gray shadow-2xl rounded-md '>
                     <img
                         src={image}
                         alt='user1'
