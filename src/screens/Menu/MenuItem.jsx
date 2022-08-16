@@ -9,7 +9,7 @@ function MenuItem({ id, title, category, price, img, desc }) {
                 alt={title}
             />
             <div className='p-3 flex justify-between '>
-                <h1 className='text-lg text-md font-bold tracking-widest'>{title}</h1>
+                <h1 className='text-lg text-start text-md font-bold tracking-widest'>{title}</h1>
                 <p className='font-medium text-gray-600 bg-yellow-200 px-2 rounded-md '>
                     {price} $
                 </p>

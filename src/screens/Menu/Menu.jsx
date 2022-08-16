@@ -20,7 +20,7 @@ function Menu() {
                 lineClr='yellow'
                 btnClr='yellow'
             />
-            <div className='mx-auto  flex justify-center gap-6 my-4'>
+            <div className='mx-auto  w-4/5 flex justify-center flex-wrap gap-6 my-4'>
                 <p
                     onClick={() => setFoodMenu(menu)}
                     className='cursor-pointer text-gray-500 border-2 border-yellow-200 rounded-md px-4 py-2'
@@ -39,7 +39,7 @@ function Menu() {
                     );
                 })}
             </div>
-            <div className='grid grid-cols-3 place-items-center gap-10 rounded-t-lg max-w-6xl mx-auto mt-10 items-stretch'>
+            <div className='grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-10 rounded-t-lg w-4/5 lg:max-w-6xl mx-auto mt-10 items-stretch'>
                 {foodMenu.map((item) => {
                     return <MenuItem {...item} />;
                 })}
