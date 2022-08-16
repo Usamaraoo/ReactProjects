@@ -10,6 +10,7 @@ import Accordion from './screens/accordion/Accordion';
 import Menu from './screens/Menu/Menu';
 import Tab from './screens/tabs/Tab';
 import Slider from './screens/slider/Slider';
+import Paraghraph from './screens/paragraph/Paraghraph';
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                     <Route path='/menu' element={<Menu />} />
                     <Route path='/tabs' element={<Tab />} />
                     <Route path='/slider' element={<Slider />} />
+                    <Route path='/paragraph' element={<Paraghraph />} />
                 </Routes>
             </BrowserRouter>
         </div>

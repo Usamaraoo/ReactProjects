@@ -6,6 +6,7 @@ import reviewImg from './imgs/apps/Reviews.png';
 import accordionImg from './imgs/apps/accordion.png';
 import menuImg from './imgs/apps/Menu.png';
 import tabsImg from './imgs/apps/tabs.png';
+import pImg from './imgs/apps/paragraph.png';
 
 function HomePage() {
     return (
@@ -18,7 +19,7 @@ function HomePage() {
                 </sup>
             </h1>
 
-            <div className='  grid sm:grid-cols-2 grid-col-1 px-12 xl:px-0    max-w-6xl  mx-auto mt-20 gap-10 '>
+            <div className='  grid sm:grid-cols-2 md:grid-cols-3 grid-col-1 px-12 xl:px-0    max-w-6xl  mx-auto mt-20 gap-10 '>
                 <Link to='/birthday-reminder'>
                     <div className='shadow-xl bg-white rounded-t-lg'>
                         <img
@@ -91,6 +92,16 @@ function HomePage() {
                         <p className='text-lg py-6 font-medium'>Slider</p>
                     </div>
                 </Link> */}
+                <Link to='/paragraph'>
+                    <div className='shadow-xl bg-white rounded-t-lg'>
+                        <img
+                            src={pImg}
+                            alt='paragraph'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>Paragraph</p>
+                    </div>
+                </Link>
             </div>
         </div>
     );

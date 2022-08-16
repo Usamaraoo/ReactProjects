@@ -4,7 +4,6 @@ import BackButton from './BackButton';
 function Header({title ,btnClr, textClr, lineClr }) {
     const textColor = textClr || 'black';
     const lineColor = lineClr || 'black';
-    console.log('colors',textColor,lineColor);
     return (
         <div>
             <BackButton color={btnClr} />
