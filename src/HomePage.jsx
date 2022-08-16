@@ -9,7 +9,7 @@ import tabsImg from './imgs/apps/tabs.png';
 
 function HomePage() {
     return (
-        <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200  min-h-screen py-4'>
+        <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200   min-h-screen py-4'>
             <h1 className='pt-20 text-4xl font-bold text-white'>
                 React Projects
                 <sup className='text-sm font-medium  italic ml-2'>
@@ -18,8 +18,8 @@ function HomePage() {
                 </sup>
             </h1>
 
-            <div className='grid grid-cols-3 max-w-6xl mx-auto mt-20 gap-10 '>
-                <Link to='/birthday-reminder  '>
+            <div className='  grid sm:grid-cols-2 grid-col-1 px-12 xl:px-0    max-w-6xl  mx-auto mt-20 gap-10 '>
+                <Link to='/birthday-reminder'>
                     <div className='shadow-xl bg-white rounded-t-lg'>
                         <img
                             src={birthdayImg}
