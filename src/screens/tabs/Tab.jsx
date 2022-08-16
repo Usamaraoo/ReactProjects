@@ -31,15 +31,15 @@ function Tab() {
             {loading ? (
                 <p className='text-4xl font-medium'>Loading....</p>
             ) : (
-                <div className='flex gap-4 max-w-5xl mx-auto mt-20'>
-                    <div className='flex flex-col text-3xl font-light text-gray-700'>
+                <div className='flex flex-wrap justify-center md:flex-nowrap gap-4 w-4/5 md:max-w-5xl mx-auto mt-20'>
+                    <div className='flex flex-col  text-3xl font-light text-gray-700'>
                         {jobs.map((job, i) => {
                             const { order, company } = job;
                             return (
                                 <p
                                     key={i}
                                     className={
-                                        singJob === i ? 'text-purple-500' : ''
+                                        singJob === i ? 'text-purple-500 ' : ''
                                     }
                                     onClick={() => setSingleJob(i)}
                                 >

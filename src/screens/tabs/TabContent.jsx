@@ -3,8 +3,8 @@ import React from 'react';
 function TabContent(props) {
     console.log('cd',props);
     return (
-        <div className='text-start'>
-            <h1 className='text-3xl text-gray-800'>{props.val.title}</h1>
+        <div className='text-center sm:text-start'>
+            <h1 className='text-3xl  text-gray-800'>{props.val.title}</h1>
             <p className=' text-gray-600 px-2 py-4 font-bold'>{props.val.company}</p>
             <p className='text-sm text-gray-500 tracking-widest'>
                 {props.val.dates}
