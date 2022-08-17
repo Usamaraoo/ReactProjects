@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import Values from 'values.js';
 import SingleColor from './SingleColor';
+import BackButton from './../../components/BackButton';
+
 function ColorGenerator() {
     const [colorList, setColorList] = useState(new Values('#f15025').all(10));
     const [inputColor, setInputColor] = useState('');
@@ -27,6 +29,7 @@ function ColorGenerator() {
 
     return (
         <div className='min-h-screen bg-gray-800'>
+            <BackButton color='white'/>
             <form
                 onSubmit={handleSubmit}
                 className='flex flex-col justify-center mx-auto items-center flex-wrap w-4/5  gap-4 pt-20'

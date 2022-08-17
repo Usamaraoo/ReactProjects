@@ -7,11 +7,12 @@ import accordionImg from './imgs/apps/accordion.png';
 import menuImg from './imgs/apps/Menu.png';
 import tabsImg from './imgs/apps/tabs.png';
 import pImg from './imgs/apps/paragraph.png';
+import clrAppImg from './imgs/apps/colorapp.png';
 
 function HomePage() {
     return (
-        <div className=' min-h-screen py-4'>
-            <h1 className='pt-20 text-4xl font-bold '>
+        <div className=' min-h-screen bg-gray-800 py-4'>
+            <h1 className='pt-20 text-4xl font-bold text-white '>
                 React Projects
                 <sup className='text-sm font-medium  italic ml-2'>
                     <span className='text-blue-600'>React </span>+
@@ -105,7 +106,7 @@ function HomePage() {
                 <Link to='/colors'>
                     <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
-                            // src={}
+                            src={clrAppImg}
                             alt='paragraph'
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
