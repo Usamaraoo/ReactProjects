@@ -10,8 +10,8 @@ import pImg from './imgs/apps/paragraph.png';
 
 function HomePage() {
     return (
-        <div className='bg-gradient-to-r from-indigo-200 via-purple-400 to-pink-200   min-h-screen py-4'>
-            <h1 className='pt-20 text-4xl font-bold text-white'>
+        <div className=' min-h-screen py-4'>
+            <h1 className='pt-20 text-4xl font-bold '>
                 React Projects
                 <sup className='text-sm font-medium  italic ml-2'>
                     <span className='text-blue-600'>React </span>+
@@ -21,7 +21,7 @@ function HomePage() {
 
             <div className='  grid sm:grid-cols-2 md:grid-cols-3 grid-col-1 px-12 xl:px-0    max-w-6xl  mx-auto mt-20 gap-10 '>
                 <Link to='/birthday-reminder'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={birthdayImg}
                             alt='Birthday App '
@@ -33,7 +33,7 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/tour'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={tourImg}
                             alt='Tour '
@@ -43,7 +43,7 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/reviews'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={reviewImg}
                             alt='Reviews'
@@ -53,7 +53,7 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/accordion'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={accordionImg}
                             alt='Accordion '
@@ -63,7 +63,7 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/menu'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl  bg-yellow-50  rounded-t-lg'>
                         <img
                             src={menuImg}
                             alt='Menu'
@@ -73,7 +73,7 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/tabs'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl  bg-yellow-50  rounded-t-lg'>
                         <img
                             src={tabsImg}
                             alt='Menu'
@@ -83,7 +83,7 @@ function HomePage() {
                     </div>
                 </Link>
                 {/* <Link to='/slider'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl  rounded-t-lg'>
                         <img
                             src={tabsImg}
                             alt='Menu'
@@ -93,13 +93,23 @@ function HomePage() {
                     </div>
                 </Link> */}
                 <Link to='/paragraph'>
-                    <div className='shadow-xl bg-white rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={pImg}
                             alt='paragraph'
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
                         <p className='text-lg py-6 font-medium'>Paragraph</p>
+                    </div>
+                </Link>
+                <Link to='/colors'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
+                        <img
+                            // src={}
+                            alt='paragraph'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>Color Generator</p>
                     </div>
                 </Link>
             </div>

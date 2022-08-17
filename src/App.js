@@ -11,6 +11,7 @@ import Menu from './screens/Menu/Menu';
 import Tab from './screens/tabs/Tab';
 import Slider from './screens/slider/Slider';
 import Paraghraph from './screens/paragraph/Paraghraph';
+import ColorGenerator from './screens/colorGenerator/ColorGenerator';
 
 function App() {
     return (
@@ -29,6 +30,8 @@ function App() {
                     <Route path='/tabs' element={<Tab />} />
                     <Route path='/slider' element={<Slider />} />
                     <Route path='/paragraph' element={<Paraghraph />} />
+                    <Route path='/colors' element={<ColorGenerator />} />
+
                 </Routes>
             </BrowserRouter>
         </div>

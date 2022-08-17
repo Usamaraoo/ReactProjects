@@ -5,18 +5,12 @@ import text from './parghData';
 function Paraghraph() {
     const [inputVal, setInputVal] = useState(0);
     const [prgh, setPrgh] = useState([]);
-    const onInput = (val) => {
-        setInputVal(parseInt(val));
-    };
+   
     const generatParagraph = () => {
         if (typeof inputVal === 'number' && parseInt(inputVal) >= 0) {
             setPrgh(text.slice(0, inputVal));
-        } else {
-            console.log('else', inputVal);
         }
-        console.log('paragrah', prgh);
     };
-    console.log('helo', inputVal);
     return (
         <div>
             <Header title='Generate Paragraph' lineClr='black' />
