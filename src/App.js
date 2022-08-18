@@ -12,6 +12,7 @@ import Tab from './screens/tabs/Tab';
 import Slider from './screens/slider/Slider';
 import Paraghraph from './screens/paragraph/Paraghraph';
 import ColorGenerator from './screens/colorGenerator/ColorGenerator';
+import GroceryBud from './screens/grocerybud/GroceryBud';
 
 function App() {
     return (
@@ -31,6 +32,7 @@ function App() {
                     <Route path='/slider' element={<Slider />} />
                     <Route path='/paragraph' element={<Paraghraph />} />
                     <Route path='/colors' element={<ColorGenerator />} />
+                    <Route path='/grocerybud' element={<GroceryBud />} />
 
                 </Routes>
             </BrowserRouter>
