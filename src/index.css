@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+
+.link-container {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s;
+}
+@media only screen and (min-width: 800px) {
+  .link-container {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}

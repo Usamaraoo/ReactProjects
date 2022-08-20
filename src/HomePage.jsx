@@ -9,6 +9,7 @@ import tabsImg from './imgs/apps/tabs.png';
 import pImg from './imgs/apps/paragraph.png';
 import clrAppImg from './imgs/apps/colorapp.png';
 import groceryImg from './imgs/apps/grocery.png';
+import navImg from './imgs/apps/navbar.png';
 
 
 function HomePage() {
@@ -109,7 +110,7 @@ function HomePage() {
                     <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={clrAppImg}
-                            alt='paragraph'
+                            alt='ColorGenerate'
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
                         <p className='text-lg py-6 font-medium'>Color Generator</p>
@@ -119,10 +120,20 @@ function HomePage() {
                     <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
                         <img
                             src={groceryImg}
-                            alt='paragraph'
+                            alt='Grocery  Bud'
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
                         <p className='text-lg py-6 font-medium'>Grocery Bud</p>
+                    </div>
+                </Link>
+                <Link to='/simple-nav'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
+                        <img
+                            src={navImg}
+                            alt='NavBar'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>Simple Nav</p>
                     </div>
                 </Link>
             </div>

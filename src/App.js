@@ -1,5 +1,3 @@
-// Local Imports
-import './App.css';
 import Tour from './screens/Tour/Tour';
 import HomePage from './HomePage';
 import BirthdayReminder from './screens/BirthdayReminder/BirthdayReminder';
@@ -13,6 +11,7 @@ import Slider from './screens/slider/Slider';
 import Paraghraph from './screens/paragraph/Paraghraph';
 import ColorGenerator from './screens/colorGenerator/ColorGenerator';
 import GroceryBud from './screens/grocerybud/GroceryBud';
+import NavBar from './screens/simpleNavbar/NavBar';
 
 function App() {
     return (
@@ -33,6 +32,7 @@ function App() {
                     <Route path='/paragraph' element={<Paraghraph />} />
                     <Route path='/colors' element={<ColorGenerator />} />
                     <Route path='/grocerybud' element={<GroceryBud />} />
+                    <Route path='simple-nav' element={<NavBar/>}/>
 
                 </Routes>
             </BrowserRouter>
