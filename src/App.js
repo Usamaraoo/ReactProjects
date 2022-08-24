@@ -12,6 +12,8 @@ import Paraghraph from './screens/paragraph/Paraghraph';
 import ColorGenerator from './screens/colorGenerator/ColorGenerator';
 import GroceryBud from './screens/grocerybud/GroceryBud';
 import NavBar from './screens/simpleNavbar/NavBar';
+import SideBarMain from './screens/Sidebar/SideBarMain';
+import Main from './screens/stripemenu/components/Main';
 
 function App() {
     return (
@@ -33,6 +35,8 @@ function App() {
                     <Route path='/colors' element={<ColorGenerator />} />
                     <Route path='/grocerybud' element={<GroceryBud />} />
                     <Route path='simple-nav' element={<NavBar/>}/>
+                    <Route path='sidebar' element={<SideBarMain/>}/>
+                    <Route path='stripe-menu' element={<Main/>}/>
 
                 </Routes>
             </BrowserRouter>

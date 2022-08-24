@@ -10,7 +10,7 @@ import pImg from './imgs/apps/paragraph.png';
 import clrAppImg from './imgs/apps/colorapp.png';
 import groceryImg from './imgs/apps/grocery.png';
 import navImg from './imgs/apps/navbar.png';
-
+import sidebarImg from './imgs/apps/sidebar.png'
 
 function HomePage() {
     return (
@@ -134,6 +134,26 @@ function HomePage() {
                             className='object-cover w-screen h-44 rounded-t-lg '
                         />
                         <p className='text-lg py-6 font-medium'>Simple Nav</p>
+                    </div>
+                </Link>
+                <Link to='/sidebar'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
+                        <img
+                            src={sidebarImg}
+                            alt='SideBar'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>SideBar</p>
+                    </div>
+                </Link>
+                <Link to='/stripe-menu'>
+                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
+                        <img
+                            // src={sidebarImg}/
+                            alt='StripeMenu'
+                            className='object-cover w-screen h-44 rounded-t-lg '
+                        />
+                        <p className='text-lg py-6 font-medium'>SideBar</p>
                     </div>
                 </Link>
             </div>
