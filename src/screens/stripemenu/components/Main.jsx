@@ -11,7 +11,7 @@ function Main() {
         <NavBar />
         <SideBar />
         <Hero />
-        {/* <SubMenu /> */}
+        <SubMenu />
       </StripeProvider>
     </div>
   );

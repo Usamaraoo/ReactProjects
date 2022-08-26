@@ -11,6 +11,7 @@ import clrAppImg from './imgs/apps/colorapp.png';
 import groceryImg from './imgs/apps/grocery.png';
 import navImg from './imgs/apps/navbar.png';
 import sidebarImg from './imgs/apps/sidebar.png'
+import stripeImg from './imgs/apps/stripe.png'
 
 function HomePage() {
     return (
@@ -147,13 +148,13 @@ function HomePage() {
                     </div>
                 </Link>
                 <Link to='/stripe-menu'>
-                    <div className='shadow-xl bg-yellow-50  rounded-t-lg'>
+                    <div className='shadow-xl bg-yellow-100  rounded-t-lg'>
                         <img
-                            // src={sidebarImg}/
+                            src={stripeImg}
                             alt='StripeMenu'
-                            className='object-cover w-screen h-44 rounded-t-lg '
+                            className='object-cover w-screen h-54 rounded-t-lg '
                         />
-                        <p className='text-lg py-6 font-medium'>SideBar</p>
+                        <p className='text-lg py-6  font-medium'>SideBar</p>
                     </div>
                 </Link>
             </div>
