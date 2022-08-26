@@ -17,7 +17,7 @@ function HomePage() {
 				{appsData.map((app, index) => {
 					return (
 						<Link key={index} to={app.link}>
-							<div className='shadow-xl bg-yellow-100  rounded-t-lg'>
+							<div className='shadow-xl bg-gray-100  rounded-t-lg'>
 								<img
 									src={app.image}
 									alt={app.name}
