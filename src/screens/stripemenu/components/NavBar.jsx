@@ -15,8 +15,14 @@ export default function NavBar() {
     const bottom = tempBtn.bottom + 3;
     openSubmenu(page, { center, bottom }); // sending vals to function
   };
+  const handleSubmenu = (e) => {
+    // closing the submenut if the tag is not BUTTON on navbar
+    if(e.target.tagName !== 'BUTTON'){
+        closeSubmenu()
+    }
+}
   return (
-    <nav className=' bg-transparent fixed w-screen '>
+    <nav onMouseOver={(e)=>handleSubmenu(e)} className=' bg-transparent fixed w-screen '>
       <div className='flex justify-between items-center lg:mx-40 smd:mx-30 mx-10 py-3 tracking-widest'>
         <div className=' flex justify-between items-center  md:w-auto w-full'>
           <img src={stripeLogo} alt='Stripe' />
