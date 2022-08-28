@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "electron-builder": "CI=''react-scripts build",
+    "electron-builder": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
