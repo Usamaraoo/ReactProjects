@@ -1,4 +1,8 @@
+// library imports
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// local import
 import HomePage from './HomePage'
+
 import comp from './appsData'
 function App() {
 	return (
