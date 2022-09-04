@@ -11,6 +11,8 @@ import groceryImg from './imgs/apps/grocery.png'
 import navImg from './imgs/apps/navbar.png'
 import sidebarImg from './imgs/apps/sidebar.png'
 import stripeImg from './imgs/apps/stripe.png'
+import cartImg from './imgs/apps/cart.png'
+import cocktailLogo from './imgs/apps/cocktaillogo.svg'
 //Compnents import
 import BirthdayReminder from './screens/BirthdayReminder/BirthdayReminder'
 import Tour from './screens/Tour/Tour'
@@ -25,7 +27,10 @@ import GroceryBud from './screens/grocerybud/GroceryBud'
 import NavBar from './screens/simpleNavbar/NavBar'
 import SideBarMain from './screens/Sidebar/SideBarMain'
 import Main from './screens/stripemenu/components/Main'
-import cartMain from './screens/cart/cartMain'
+import CartMain from './screens/cart/CartMain'
+import CocktailApp from './screens/cocktails/CocktailApp'
+import About from './screens/cocktails/pages/About'
+import Err from  './screens/cocktails/pages/Err'
 
 export default [
 	{
@@ -103,8 +108,23 @@ export default [
 	},
 	{
 		name: 'Cart',
-		image: stripeImg,
+		image: cartImg,
 		link: '/cart',
-		comp: <cartMain />,
+		comp: <CartMain />,
+	},
+    {
+		name: 'Cocktails',
+		image: cocktailLogo,
+		link: '/cocktails',
+		comp: <CocktailApp />,
+        childRoute:[
+            {
+                component:<About/>,
+                link:'/cocktail/about'
+            }, {
+                component:<Err/>,
+                link:'/cocktail/error'
+            }
+        ]
 	},
 ]

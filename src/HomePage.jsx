@@ -12,7 +12,6 @@ function HomePage() {
 					<span className='text-red-600'>Tailwind</span>
 				</sup>
 			</h1>
-
 			<div className='  grid sm:grid-cols-2 md:grid-cols-3 grid-col-1 px-12 xl:px-0    max-w-6xl  mx-auto mt-20 gap-10 '>
 				{appsData.map((app, index) => {
 					return (
