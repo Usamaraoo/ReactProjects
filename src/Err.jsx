@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import errPage from './../../../imgs/cocktail/404.svg'
+import errPage from './imgs/cocktail/404.svg'
 
 
 export default function Err() {
