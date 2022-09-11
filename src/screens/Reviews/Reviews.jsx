@@ -29,9 +29,9 @@ export default function Reviews() {
     return (
         <div className=' bg-pink-100 min-h-screen'>
             <Header
-                title='Accordion'
+                title='Reviews'
                 textClr='black'
-                lineClr='black'
+                lineClr=' bg-black'
                 btnClr='black'
             />
 

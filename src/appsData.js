@@ -12,6 +12,7 @@ import navImg from './imgs/apps/navbar.png'
 import sidebarImg from './imgs/apps/sidebar.png'
 import stripeImg from './imgs/apps/stripe.png'
 import cartImg from './imgs/apps/cart.png'
+import sliderImg from './imgs/apps/slider.png'
 //Compnents import
 import BirthdayReminder from './screens/BirthdayReminder/BirthdayReminder'
 import Tour from './screens/Tour/Tour'
@@ -35,6 +36,7 @@ export default [
 		link: '/birthday-reminder',
 		comp: <BirthdayReminder />,
 	},
+   
 	{
 		name: 'Tour',
 		image: tourImg,
@@ -46,6 +48,12 @@ export default [
 		image: reviewImg,
 		link: '/reviews',
 		comp: <Reviews />,
+	},
+    {
+		name: `Slider Animated`,
+		image: sliderImg,
+		link: '/slider',
+		comp: <Slider />,
 	},
 
 	{

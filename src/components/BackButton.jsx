@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function BackButton({ color }) {
     const colorToUpdate = color || 'black';
     return (
-        <div className='absolute left-36 top-20'>
+        <div className='absolute top-2 left-5 sm:left-36    sm:top-20'>
             <Link to='/'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
